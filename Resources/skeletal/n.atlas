@@ -1,0 +1,47 @@
+
+n.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+attack
+  rotate: false
+  xy: 2, 376
+  size: 832, 98
+  orig: 832, 98
+  offset: 0, 0
+  index: -1
+blink
+  rotate: false
+  xy: 2, 2
+  size: 77, 76
+  orig: 77, 76
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 80
+  size: 254, 294
+  orig: 254, 294
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 947, 423
+  size: 51, 68
+  orig: 51, 68
+  offset: 0, 0
+  index: -1
+l_leg
+  rotate: false
+  xy: 258, 272
+  size: 49, 102
+  orig: 49, 102
+  offset: 0, 0
+  index: -1
+r_leg
+  rotate: true
+  xy: 836, 422
+  size: 52, 109
+  orig: 52, 109
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,160 @@
+{
+"bones": [
+	{ "name": "root", "x": -32.48, "y": 34.47 },
+	{ "name": "bone", "parent": "root", "x": 85.88, "y": -98.84 },
+	{ "name": "bone5", "parent": "root", "x": 608.84, "y": -34.06 },
+	{ "name": "bone2", "parent": "bone", "length": 17.63, "x": -0.48, "y": -0.48, "rotation": 86.82 },
+	{ "name": "bone3", "parent": "bone2", "length": 39.37, "x": 82.16, "y": 55, "rotation": -58.77 },
+	{ "name": "bone4", "parent": "bone2", "length": 8.42, "x": 33.49, "y": -36.76, "rotation": -2.25 }
+],
+"slots": [
+	{ "name": "test01_0003_weapon", "bone": "bone3", "attachment": "test01_0003_weapon" },
+	{ "name": "test01_0002_body", "bone": "bone2", "attachment": "test01_0002_body" },
+	{ "name": "test01_0000_eye2", "bone": "root" },
+	{ "name": "test01_0001_eye1", "bone": "bone4", "attachment": "test01_0001_eye1" },
+	{ "name": "CG (1)", "bone": "bone5", "attachment": "CG百货 (1)" }
+],
+"skins": {
+	"default": {
+		"CG (1)": {
+			"CG百货 (1)": { "x": -32.48, "y": 34.47, "width": 380, "height": 380 },
+			"CG百货 (10)": { "x": -32.48, "y": 34.47, "width": 380, "height": 380 },
+			"CG百货 (11)": { "x": -32.48, "y": 34.47, "width": 380, "height": 380 },
+			"CG百货 (12)": { "x": -32.48, "y": 34.47, "width": 380, "height": 380 },
+			"CG百货 (2)": { "x": -32.48, "y": 34.47, "width": 380, "height": 380 },
+			"CG百货 (3)": { "x": -32.48, "y": 34.47, "width": 380, "height": 380 },
+			"CG百货 (4)": { "x": -32.48, "y": 34.47, "width": 380, "height": 380 },
+			"CG百货 (5)": { "x": -32.48, "y": 34.47, "width": 380, "height": 380 },
+			"CG百货 (6)": { "x": -32.48, "y": 34.47, "width": 380, "height": 380 },
+			"CG百货 (7)": { "x": -32.48, "y": 34.47, "width": 380, "height": 380 },
+			"CG百货 (8)": { "x": -32.48, "y": 34.47, "width": 380, "height": 380 },
+			"CG百货 (9)": { "x": -32.48, "y": 34.47, "width": 380, "height": 380 }
+		},
+		"test01_0001_eye1": {
+			"test01_0001_eye1": { "x": 5.42, "y": -1.75, "rotation": -84.56, "width": 51, "height": 43 },
+			"test01_0000_eye2": { "x": 3.84, "y": 1.77, "rotation": -84.56, "width": 41, "height": 42 }
+		},
+		"test01_0002_body": {
+			"test01_0002_body": { "x": -7.3, "y": -1.23, "rotation": -86.82, "width": 223, "height": 265 }
+		},
+		"test01_0003_weapon": {
+			"test01_0003_weapon": { "x": 21.31, "y": -5.06, "rotation": -23.69, "width": 82, "height": 65 }
+		}
+	}
+},
+"animations": {
+	"attack": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "time": 0.2, "angle": 0 },
+					{ "time": 0.4, "angle": -31.19 },
+					{ "time": 0.5, "angle": -67.03, "curve": "stepped" },
+					{ "time": 0.6666, "angle": -67.03 }
+				],
+				"translate": [
+					{ "time": 0.2, "x": 0, "y": 0 },
+					{ "time": 0.3, "x": 74.54, "y": -122.98 },
+					{ "time": 0.4, "x": 120.96, "y": -199.55 },
+					{ "time": 0.5, "x": 121.06, "y": -333.73 },
+					{ "time": 0.6666, "x": 13.19, "y": -483.28 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.0666, "angle": 47 },
+					{ "time": 0.1666, "angle": -5.99 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0 }
+				]
+			},
+			"bone4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"slots": {
+			"CG (1)": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "CG百货 (1)" },
+					{ "time": 0.7, "name": "CG百货 (2)" },
+					{ "time": 0.7333, "name": "CG百货 (3)" },
+					{ "time": 0.7666, "name": "CG百货 (4)" },
+					{ "time": 0.8, "name": "CG百货 (5)" },
+					{ "time": 0.8333, "name": "CG百货 (6)" },
+					{ "time": 0.8666, "name": "CG百货 (7)" },
+					{ "time": 0.9, "name": "CG百货 (8)" },
+					{ "time": 0.9333, "name": "CG百货 (9)" },
+					{ "time": 0.9666, "name": "CG百货 (10)" },
+					{ "time": 1, "name": "CG百货 (11)" },
+					{ "time": 1.0333, "name": "CG百货 (12)" }
+				]
+			},
+			"test01_0003_weapon": {
+				"attachment": [
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"test01_0001_eye1": {
+				"attachment": [
+					{ "time": 0.1666, "name": "test01_0000_eye2" },
+					{ "time": 0.8333, "name": "test01_0000_eye2" }
+				]
+			}
+		}
+	},
+	"walk": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 1.85, "y": 33.36 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,82 @@
+
+one.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+File 000705_1-1
+  rotate: false
+  xy: 371, 118
+  size: 127, 121
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+File 000709_1-1
+  rotate: true
+  xy: 371, 54
+  size: 62, 119
+  orig: 64, 128
+  offset: 1, 2
+  index: -1
+test01_0000_l_hand
+  rotate: false
+  xy: 500, 135
+  size: 112, 37
+  orig: 112, 37
+  offset: 0, 0
+  index: -1
+test01_0001_r_hand
+  rotate: false
+  xy: 371, 5
+  size: 98, 47
+  orig: 98, 47
+  offset: 0, 0
+  index: -1
+test01_0002_weapon
+  rotate: false
+  xy: 500, 174
+  size: 148, 65
+  orig: 148, 65
+  offset: 0, 0
+  index: -1
+test01_0003_foot1
+  rotate: true
+  xy: 650, 177
+  size: 21, 86
+  orig: 21, 86
+  offset: 0, 0
+  index: -1
+test01_0004_foot2
+  rotate: true
+  xy: 820, 213
+  size: 26, 74
+  orig: 26, 74
+  offset: 0, 0
+  index: -1
+test01_0005_foot3
+  rotate: true
+  xy: 896, 220
+  size: 19, 81
+  orig: 19, 81
+  offset: 0, 0
+  index: -1
+test01_0006_foot4
+  rotate: true
+  xy: 738, 181
+  size: 17, 73
+  orig: 17, 73
+  offset: 0, 0
+  index: -1
+test01_0007_eye
+  rotate: false
+  xy: 650, 200
+  size: 168, 39
+  orig: 168, 39
+  offset: 0, 0
+  index: -1
+test01_0008_body
+  rotate: true
+  xy: 2, 2
+  size: 237, 367
+  orig: 237, 367
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,26 @@
+
+6.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+test01_0000_wheel
+  rotate: false
+  xy: 321, 266
+  size: 118, 168
+  orig: 118, 168
+  offset: 0, 0
+  index: -1
+test01_0001_body
+  rotate: false
+  xy: 2, 2
+  size: 317, 432
+  orig: 317, 432
+  offset: 0, 0
+  index: -1
+test01_0002_weapon
+  rotate: true
+  xy: 321, 144
+  size: 120, 84
+  orig: 120, 84
+  offset: 0, 0
+  index: -1

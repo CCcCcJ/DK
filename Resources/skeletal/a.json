@@ -1,0 +1,76 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 80.39, "x": -107.33, "y": -37.77, "rotation": 24.91 },
+	{ "name": "bone2", "parent": "root", "length": 65.18, "x": -143, "y": -4.84, "rotation": 139.36 },
+	{ "name": "bone3", "parent": "bone", "length": 13.69, "x": 158.73, "y": 9.52, "rotation": -20.7 },
+	{ "name": "bone4", "parent": "bone", "length": 26.93, "x": 187.87, "y": 11.15, "rotation": 23.41 },
+	{ "name": "bone5", "parent": "bone", "length": 21.65, "x": 161.54, "y": 39.98, "rotation": 114.91 }
+],
+"slots": [
+	{ "name": "test01_0001_head", "bone": "bone", "attachment": "test01_0001_head" },
+	{ "name": "test01_0002_shell", "bone": "bone2", "attachment": "test01_0002_shell" },
+	{ "name": "test01_0003_r_antennae", "bone": "bone4", "attachment": "test01_0003_r_antennae" },
+	{ "name": "test01_0004_l_antennae", "bone": "bone5", "attachment": "test01_0004_l_antennae" },
+	{ "name": "test01_0000_eyes", "bone": "bone3", "attachment": "test01_0000_eyes" }
+],
+"skins": {
+	"default": {
+		"test01_0000_eyes": {
+			"test01_0000_eyes": { "x": 7.97, "y": 0.65, "rotation": -4.21, "width": 26, "height": 13 }
+		},
+		"test01_0001_head": {
+			"test01_0001_head": { "x": 69.65, "y": -3.95, "rotation": -24.91, "width": 217, "height": 146 }
+		},
+		"test01_0002_shell": {
+			"test01_0002_shell": { "x": 107.76, "y": -3.5, "rotation": -139.36, "width": 371, "height": 340 }
+		},
+		"test01_0003_r_antennae": {
+			"test01_0003_r_antennae": { "x": 5.34, "y": 23.28, "rotation": -48.33, "width": 66, "height": 60 }
+		},
+		"test01_0004_l_antennae": {
+			"test01_0004_l_antennae": { "x": 9.94, "y": 6.52, "rotation": -139.83, "width": 66, "height": 29 }
+		}
+	}
+},
+"animations": {
+	"walk": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 9.88 },
+					{ "time": 0.3333, "angle": -0.28 },
+					{ "time": 0.6666, "angle": 9.88 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": -2.49 },
+					{ "time": 0.3333, "angle": -10.22 },
+					{ "time": 0.6666, "angle": -2.49 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"bone4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"bone5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

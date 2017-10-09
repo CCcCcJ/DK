@@ -1,0 +1,80 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 74.91, "x": 326.08, "y": -8.53, "rotation": 87.74 },
+	{ "name": "bone2", "parent": "bone", "length": 12.53, "x": 24.09, "y": 80.99, "rotation": -162.23 },
+	{ "name": "bone3", "parent": "bone", "length": 59.12, "x": 17.18, "y": 139.16, "rotation": 92.7 }
+],
+"slots": [
+	{ "name": "test01_0002_weapon", "bone": "bone3", "attachment": "test01_0002_weapon" },
+	{ "name": "test01_0001_body", "bone": "bone", "attachment": "test01_0001_body" },
+	{ "name": "test01_0000_wheel", "bone": "bone2", "attachment": "test01_0000_wheel" }
+],
+"skins": {
+	"default": {
+		"test01_0000_wheel": {
+			"test01_0000_wheel": { "x": 24.14, "y": -16.09, "rotation": -105.92, "width": 118, "height": 168 }
+		},
+		"test01_0001_body": {
+			"test01_0001_body": { "x": 124.57, "y": 31.99, "rotation": -87.74, "width": 317, "height": 432 }
+		},
+		"test01_0002_weapon": {
+			"test01_0002_weapon": { "x": 17.21, "y": 1.97, "rotation": 179.54, "width": 120, "height": 84 }
+		}
+	}
+},
+"animations": {
+	"attack": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1666, "x": -1.32, "y": 28.13 },
+					{ "time": 0.5, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"walk": {
+		"bones": {
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": -15.6 },
+					{ "time": 0.1666, "angle": 105.65 },
+					{ "time": 0.3333, "angle": 234.94 },
+					{ "time": 0.5, "angle": -11.26 }
+				]
+			}
+		}
+	}
+}
+}

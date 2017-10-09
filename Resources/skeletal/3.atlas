@@ -1,0 +1,26 @@
+
+3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+test01_0000_body
+  rotate: false
+  xy: 2, 42
+  size: 405, 436
+  orig: 405, 436
+  offset: 0, 0
+  index: -1
+test01_0001_mouth
+  rotate: false
+  xy: 2, 2
+  size: 42, 38
+  orig: 42, 38
+  offset: 0, 0
+  index: -1
+test01_0002_tale
+  rotate: false
+  xy: 409, 355
+  size: 103, 123
+  orig: 103, 123
+  offset: 0, 0
+  index: -1

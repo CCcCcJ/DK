@@ -1,0 +1,47 @@
+
+g.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 49
+  size: 189, 280
+  orig: 189, 280
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 284, 20
+  size: 122, 111
+  orig: 122, 111
+  offset: 0, 0
+  index: -1
+tale
+  rotate: false
+  xy: 284, 133
+  size: 210, 105
+  orig: 210, 105
+  offset: 0, 0
+  index: -1
+weapon1
+  rotate: false
+  xy: 2, 2
+  size: 37, 45
+  orig: 37, 45
+  offset: 0, 0
+  index: -1
+weapon2
+  rotate: false
+  xy: 408, 94
+  size: 44, 37
+  orig: 44, 37
+  offset: 0, 0
+  index: -1
+weapon3
+  rotate: false
+  xy: 41, 14
+  size: 46, 33
+  orig: 46, 33
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,54 @@
+
+m.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+attack
+  rotate: false
+  xy: 2, 424
+  size: 915, 467
+  orig: 915, 467
+  offset: 0, 0
+  index: -1
+blink
+  rotate: false
+  xy: 2, 94
+  size: 120, 72
+  orig: 120, 72
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 168
+  size: 276, 254
+  orig: 276, 254
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 280, 349
+  size: 107, 73
+  orig: 107, 73
+  offset: 0, 0
+  index: -1
+l_leg
+  rotate: true
+  xy: 919, 616
+  size: 275, 89
+  orig: 275, 89
+  offset: 0, 0
+  index: -1
+m_leg
+  rotate: false
+  xy: 2, 2
+  size: 48, 90
+  orig: 48, 90
+  offset: 0, 0
+  index: -1
+r_leg
+  rotate: false
+  xy: 919, 527
+  size: 59, 87
+  orig: 59, 87
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,47 @@
+
+f.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+test01_0000_arrow
+  rotate: false
+  xy: 389, 112
+  size: 208, 130
+  orig: 208, 130
+  offset: 0, 0
+  index: -1
+test01_0001_bow1
+  rotate: false
+  xy: 599, 158
+  size: 45, 84
+  orig: 45, 84
+  offset: 0, 0
+  index: -1
+test01_0002_bow2
+  rotate: true
+  xy: 2, 2
+  size: 30, 96
+  orig: 30, 96
+  offset: 0, 0
+  index: -1
+test01_0003_wheel
+  rotate: false
+  xy: 389, 44
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+test01_0004_eyes
+  rotate: false
+  xy: 455, 63
+  size: 45, 47
+  orig: 45, 47
+  offset: 0, 0
+  index: -1
+test01_0005_body
+  rotate: true
+  xy: 2, 34
+  size: 208, 385
+  orig: 208, 385
+  offset: 0, 0
+  index: -1

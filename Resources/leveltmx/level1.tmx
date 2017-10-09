@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="17" height="7" tilewidth="43" tileheight="45" nextobjectid="1">
+ <tileset firstgid="1" name="level1" tilewidth="43" tileheight="45" tilecount="119" columns="17">
+  <image source="level1.jpg" width="747" height="320"/>
+ </tileset>
+ <layer name="background" width="17" height="7">
+  <data encoding="base64" compression="zlib">
+   eJwNw4NyQwEAALA32zY62zbazrZt6/eX3CUmCIJY44w3wUSTTDbFVNNMN8NMs8w2x1zzzLfAQosstsRSyyy3wkqrrLbGWkPWWW+DjTbZbIutttluh5122W2PvfbZ74CDDjnsiKOOOe6Ek0457Yyzzjlv2IhRF1x0yWVXXHXNdTfcdMttd9x1z30PPPTIY0889cxzL7z0ymtvvPXOex989MlnX3z1zXc//PTLb3/89c9/losb5Q==
+  </data>
+ </layer>
+ <layer name="plant" width="17" height="7" opacity="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBieoJQIPNwBAO2tBB4=
+  </data>
+ </layer>
+</map>

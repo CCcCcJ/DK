@@ -1,0 +1,40 @@
+
+a.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+test01_0000_eyes
+  rotate: false
+  xy: 2, 2
+  size: 26, 13
+  orig: 26, 13
+  offset: 0, 0
+  index: -1
+test01_0001_head
+  rotate: false
+  xy: 2, 17
+  size: 217, 146
+  orig: 217, 146
+  offset: 0, 0
+  index: -1
+test01_0002_shell
+  rotate: false
+  xy: 2, 165
+  size: 371, 340
+  orig: 371, 340
+  offset: 0, 0
+  index: -1
+test01_0003_r_antennae
+  rotate: false
+  xy: 375, 445
+  size: 66, 60
+  orig: 66, 60
+  offset: 0, 0
+  index: -1
+test01_0004_l_antennae
+  rotate: false
+  xy: 221, 134
+  size: 66, 29
+  orig: 66, 29
+  offset: 0, 0
+  index: -1

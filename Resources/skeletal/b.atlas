@@ -1,0 +1,33 @@
+
+b.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+test01_0000_eyes
+  rotate: false
+  xy: 191, 2
+  size: 72, 54
+  orig: 72, 54
+  offset: 0, 0
+  index: -1
+test01_0001_up
+  rotate: false
+  xy: 2, 27
+  size: 187, 132
+  orig: 187, 132
+  offset: 0, 0
+  index: -1
+test01_0002_body
+  rotate: true
+  xy: 2, 161
+  size: 93, 358
+  orig: 93, 358
+  offset: 0, 0
+  index: -1
+test01_0003_down
+  rotate: false
+  xy: 191, 58
+  size: 181, 101
+  orig: 181, 101
+  offset: 0, 0
+  index: -1

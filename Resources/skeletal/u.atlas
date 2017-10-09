@@ -1,0 +1,33 @@
+
+u.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+test01_0001_r_eye
+  rotate: false
+  xy: 2, 2
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+test01_0002_l_eye
+  rotate: false
+  xy: 399, 151
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+test01_0003_Í¼²ã-1
+  rotate: false
+  xy: 2, 28
+  size: 395, 447
+  orig: 395, 447
+  offset: 0, 0
+  index: -1
+test01_0004_Í¼²ã-4
+  rotate: true
+  xy: 399, 177
+  size: 298, 63
+  orig: 298, 63
+  offset: 0, 0
+  index: -1
